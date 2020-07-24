@@ -7,23 +7,27 @@
 - 自己紹介(3min)
 - 会社がMonolithicからMSAに移った背景について (4min)
 
+1. Type System (8min)
+1-1. Introduce Golang.
+1-2. Duck Typing / Structural Typing
+1-3. Functional Programming
 
-1.HTTP Client (10min)
-1-1.Pythonではどうするのか
-1-2. Golangではどうするのか
-1-3. Golangの良くない点。
-1-4. Network ResponseをStructにすると良い点と良くない点。
+2. HTTP Client (8min)
+2-1. Python requests
+2-2. Golang net/http
+2-3. What is deffrence?
+2-4. Concurrency
 
-2. Handling JSON (14min)
-2-1. Pythonではどうするのか。
-2-2. Golangではどうするのか。
-2-3. Pythonのいいところ。
-2-4. XML の場合どうなるか。
+3. Handling JSON (8min)
+3-1. Python json
+3-2. Golang encoding/json
+3-3. What is deffrence?
+3-4. XML の場合どうなるか。
 
-3. 開発環境(8min)
-3-1.ORMではどう違うか
-3-2. Package 管理者(pip / go mod)
-3-3. Lint / Test / Etc
+4. 開発環境(8min)
+4-1.ORMではどう違うか
+4-2. Package 管理者(pip / go mod)
+4-3. Lint / Test / Etc
 
 
 仕上げ
