@@ -4,10 +4,10 @@
 
 ```
 導入
-- 自己紹介(3min)
-- 会社がMonolithicからMSAに移った背景について (4min)
+- 自己紹介(2min)
+- 会社がMonolithicからMSAに移った背景について (3min)
 
-1. Type System (8min)
+1. Type System (15min)
 1-1. Introduce Golang.
 1-2. Duck Typing / Structural Typing
 1-3. Functional Programming
