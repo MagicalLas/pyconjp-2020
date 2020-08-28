@@ -1,23 +1,20 @@
-package main
+package http
 
 import (
 	"net/http"
 
-	"fmt"
 	"io/ioutil"
-	"log"
 )
 
 func main() {
 	response, err := http.Get("https://pycon.jp")
 	if err != nil {
-		log.Println(err)
+		// error catch
 	}
-	fmt.Println(response)
 
 	body, err := ioutil.ReadAll(response.Body)
 	if err != nil {
-		log.Println(err)
+		// error catch
 	}
-	fmt.Println(string(body))
+	println(string(body))
 }
